@@ -1,0 +1,12 @@
+/* C:/Users/geun/AppData/Local/Temp/bootgen_laser_receiver_sdk_system7982427874186163614/sd_card_temp/boot.bif */
+/* Command to create bitstream .bin file:       */
+/*   bootgen -image <bif_file> -split bin -w    */
+/* Command to create BOOT.BIN file:             */
+/*   bootgen  -image <bif_file> -w -o i BOOT.BIN */
+/*laser_receiver_bitstream*/
+the_ROM_image:
+{
+ [bootloader] E:/workspace/laser_receiver_bitstream/export/laser_receiver_bitstream/sw/laser_receiver_bitstream/boot/fsbl.elf
+ E:/workspace/laser_receiver_sdk/_ide/bitstream/laser_receiver_bitstream.bit
+ E:/workspace/laser_receiver_sdk/Debug/laser_receiver_sdk.elf
+}
